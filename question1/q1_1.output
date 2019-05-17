@@ -1,0 +1,23 @@
+Decision Tree Classifier, Metric: Area Under ROC
+{Param(parent='DecisionTreeClassifier_4ad5b56c35ee3b7f040e', name='maxDepth', doc='Maximum depth of the tree. (>= 0) E.g., depth 0 means 1 leaf node; depth 1 means 1 internal node + 2 leaf nodes.'): 10, Param(parent='DecisionTreeClassifier_4ad5b56c35ee3b7f040e', name='impurity', doc='Criterion used for information gain calculation (case-insensitive). Supported options: entropy, gini'): 'gini'}
+Area Under ROC: 0.701206107705
+
+Decision Tree Classifier, Metric: Accuracy
+{Param(parent='DecisionTreeClassifier_4ad5b56c35ee3b7f040e', name='maxDepth', doc='Maximum depth of the tree. (>= 0) E.g., depth 0 means 1 leaf node; depth 1 means 1 internal node + 2 leaf nodes.'): 10, Param(parent='DecisionTreeClassifier_4ad5b56c35ee3b7f040e', name='impurity', doc='Criterion used for information gain calculation (case-insensitive). Supported options: entropy, gini'): 'gini'}
+Accuracy: 0.702878480768
+
+Decision Tree Regressor, Metric: Area Under ROC
+{Param(parent='DecisionTreeRegressor_4b5b92158184a7794037', name='maxDepth', doc='Maximum depth of the tree. (>= 0) E.g., depth 0 means 1 leaf node; depth 1 means 1 internal node + 2 leaf nodes.'): 10, Param(parent='DecisionTreeRegressor_4b5b92158184a7794037', name='maxBins', doc='Max number of bins for discretizing continuous features.  Must be >=2 and >= number of categories for any categorical feature.'): 32}
+Area Under ROC: 0.701412536867
+
+Decision Tree Regressor, Metric: Accuracy
+{Param(parent='DecisionTreeRegressor_4b5b92158184a7794037', name='maxDepth', doc='Maximum depth of the tree. (>= 0) E.g., depth 0 means 1 leaf node; depth 1 means 1 internal node + 2 leaf nodes.'): 10, Param(parent='DecisionTreeRegressor_4b5b92158184a7794037', name='maxBins', doc='Max number of bins for discretizing continuous features.  Must be >=2 and >= number of categories for any categorical feature.'): 32}
+Accuracy: 0.702991050083
+
+Logistic Regression, Metric: Area Under ROC
+{Param(parent='LogisticRegression_462ab1a7b899cbb126dc', name='maxIter', doc='max number of iterations (>= 0).'): 20, Param(parent='LogisticRegression_462ab1a7b899cbb126dc', name='regParam', doc='regularization parameter (>= 0).'): 0.0}
+Area Under ROC: 0.634699114687
+
+Logistic Regression, Metric: Accuracy
+{Param(parent='LogisticRegression_462ab1a7b899cbb126dc', name='maxIter', doc='max number of iterations (>= 0).'): 20, Param(parent='LogisticRegression_462ab1a7b899cbb126dc', name='regParam', doc='regularization parameter (>= 0).'): 0.0}
+Accuracy: 0.641085523282

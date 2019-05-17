@@ -1,0 +1,18 @@
+Remove Null values
+Replace Categorical Features
+Make the dataset balanced
+Linear Regression
++-------+-----------------+
+|summary|     Claim_Amount|
++-------+-----------------+
+|  count|            39545|
+|   mean|87.28167798156656|
+| stddev|299.5616707123696|
+|    min|              0.0|
+|    max|         11440.75|
++-------+-----------------+
+
+Root Mean Squared Error (RMSE) on test data = 280.442
+Decision Tree Classifier
+Generalized Linear Regression with gamma family
+RMSE = 261.97 

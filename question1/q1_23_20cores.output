@@ -1,0 +1,22 @@
+Decision Tree Classifier
+Accuracy: 0.7039510672740118
+Area Under ROC: 0.7023496184484584
+Top Features
+_c26 _c28 _c27 
+Time: 10.0 minutes 16.472222261428833 seconds
+
+Decision Tree Regressor
+Accuracy: 0.7042147526191986
+Area Under ROC: 0.7024324034251203
+Top Features
+_c26 _c28 _c27 
+Time: 0.0 minutes 46.47856044769287 seconds
+
+Logistic Regression
+Accuracy: 0.6413988416636182
+Area Under ROC: 0.6351392260456487
+Top Features
+_c28 _c27 _c26 
+Time: 1.0 minutes 22.79645323753357 seconds
+
+Total Time: 12.28493062655131 minutes 17.095837593078613 seconds
